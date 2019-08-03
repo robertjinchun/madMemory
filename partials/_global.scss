@@ -1,0 +1,33 @@
+//Colors
+
+//Fonts
+
+body {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 200px 80vh 50px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+main {
+    grid-area: main;
+    background-color: red;
+}
+
+footer {
+    grid-area: footer;
+    background-color: green;
+}
+
+button {
+    width:100px;
+    height:50px;
+}

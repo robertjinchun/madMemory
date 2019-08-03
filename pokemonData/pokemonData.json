@@ -1,0 +1,102 @@
+[
+    {
+        "number": "001",
+        "name": "Bulbasaur",
+        "success": false
+    },
+    {
+        "number": "002",
+        "name": "Ivysaur",
+        "success": false
+    },
+    {
+        "number": "003",
+        "name": "Venusaur",
+        "success": false
+    },
+    {
+        "number": "004",
+        "name": "Charmander",
+        "success": false
+    },
+    {
+        "number": "005",
+        "name": "Charmeleon",
+        "success": false
+    },
+    {
+        "number": "006",
+        "name": "Charizard",
+        "success": false
+    },
+    {
+        "number": "007",
+        "name": "Squirtle",
+        "success": false
+    },
+    {
+        "number": "008",
+        "name": "Wartortle",
+        "success": false
+    },
+    {
+        "number": "009",
+        "name": "Blastoise",
+        "success": false
+    },
+    {
+        "number": "010",
+        "name": "Caterpie",
+        "success": false
+    },
+    {
+        "number": "011",
+        "name": "Metapod",
+        "success": false
+    },
+    {
+        "number": "012",
+        "name": "Butterfree",
+        "success": false
+    },
+    {
+        "number": "013",
+        "name": "Weedle",
+        "success": false
+    },
+    {
+        "number": "014",
+        "name": "Kakuna",
+        "success": false
+    },
+    {
+        "number": "015",
+        "name": "Beedrill",
+        "success": false
+    },
+    {
+        "number": "016",
+        "name": "Pidgey",
+        "success": false
+    },
+    {
+        "number": "017",
+        "name": "Pidgeotto",
+        "success": false
+    },
+    {
+        "number": "018",
+        "name": "Pidgeot",
+        "success": false
+    },
+    {
+        "number": "019",
+        "name": "Rattata",
+        "success": false
+    },
+    {
+        "number": "020",
+        "name": "Raticate",
+        "success": false
+    }
+]
