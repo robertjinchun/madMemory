@@ -4,8 +4,8 @@
 
 body {
     display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 200px 80vh 50px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto 50px;
     grid-template-areas:
         "header"
         "main"
@@ -28,6 +28,41 @@ footer {
 }
 
 button {
-    width:100px;
-    height:50px;
+    width: 100px;
+    height: 50px;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+.hidden {
+    display: none
+}
+
+.visible {
+    display: block
+}
+
+li {
+    border: 2px solid purple;
+    height: 20px;
+    width: 100px;
+    margin: 5px;
+    list-style: none;
+    text-align: center;
+    // justify-content: center;
+}
+
+ul {
+    display: flex;
+    // flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-left:0;
 }

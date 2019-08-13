@@ -1,5 +1,8 @@
-const immutableData = {};
+const immutableData = [];
+let immutableTest = [];
 const listItem = [];
+const itemAvailable = [];
+let points = 0;
 
 const get = (url) => {
     return new Promise((resolve, reject) => {
@@ -14,35 +17,60 @@ const get = (url) => {
             }
         };
         xhr.send();
-    }).then((response)=>{
-        // immutableData.pokemon = response
-        console.log(response)
+    }).then((response) => {
+        immutableTest = [...response];
         produceElements(response)
-        // console.log(response)
+
+    }).catch((err) => {
+        console.log(err)
     })
 }
-// Here's an example of how we make an HTTP request without $.ajax or axios
-get('../pokemonData/pokemonData.json');
-// console.log(workableData)
 
 const produceElements = (pokemon) => {
-
     const ulList = document.getElementById('wholeList')
-
-    console.log(pokemon.length)
-    for(let i = 0; i < pokemon.length; i ++){
-        console.log(i)
+    for (let i = 0; i < pokemon.length; i++) {
+        listItem[i] = ""
         listItem[i] = document.createElement('li')
-        listItem[i].className = "hidden"
-        listItem[i].textContent = pokemon[i].name
         ulList.appendChild(listItem[i])
+        itemAvailable[i] = false
+        
     }
 }
 
+const comparison = (userInput) => {
+    // console.log(userInput)
+    const ulList = document.getElementById('wholeList')
+    for (let i = 0; i < immutableTest.length; i++) {
+        if (userInput.toLowerCase() === immutableTest[i].name.toLowerCase() && itemAvailable[i] === false) {
+            points++
+
+            listItem[i].textContent = immutableTest[i].name
+            immutableData[i] = immutableTest[i].name
+            itemAvailable[i] = true
+
+            console.log(points)
+            break
+        }
+    }
+    // for (let i = 0; i < immutableTest.length; i++) {
+    //     if (itemAvailable[i] === true) {
+    //         ulList.removeChild(listItem[i])
+    //     }
+    // }
+
+
+}
+
+get('../pokemonData/pokemonData.json');
+
 document.getElementById("itemChecker").addEventListener("click", function (event) {
     event.preventDefault()
+    // erase what is already on the list
+
+    //
+    console.log("1212")
+    comparison(document.getElementById("inputText").value)
     document.getElementById("inputText").value = ''
-    console.log("hello!")
 });
 
 

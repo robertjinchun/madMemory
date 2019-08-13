@@ -98,5 +98,617 @@
         "number": "020",
         "name": "Raticate",
         "success": false
+    },
+    {
+        "number": "021",
+        "name": "Spearow",
+        "success": false
+    },
+    {
+        "number": "022",
+        "name": "Fearow",
+        "success": false
+    },
+    {
+        "number": "023",
+        "name": "Ekans",
+        "success": false
+    },
+    {
+        "number": "024",
+        "name": "Arbok",
+        "success": false
+    },
+    {
+        "number": "025",
+        "name": "Pikachu",
+        "success": false
+    },
+    {
+        "number": "026",
+        "name": "Raichu",
+        "success": false
+    },
+    {
+        "number": "027",
+        "name": "Sandshrew",
+        "success": false
+    },
+    {
+        "number": "028",
+        "name": "SandSlash",
+        "success": false
+    },
+    {
+        "number": "029",
+        "name": "Nidoran",
+        "success": false
+    },
+    {
+        "number": "030",
+        "name": "Nidorina",
+        "success": false
+    },
+    {
+        "number": "031",
+        "name": "Nidoqueen",
+        "success": false
+    },
+    {
+        "number": "032",
+        "name": "Nidoran",
+        "success": false
+    },
+    {
+        "number": "033",
+        "name": "Nidorino",
+        "success": false
+    },
+    {
+        "number": "034",
+        "name": "Nidoking",
+        "success": false
+    },
+    {
+        "number": "035",
+        "name": "clefairy",
+        "success": false
+    },
+    {
+        "number": "036",
+        "name": "Clefable",
+        "success": false
+    },
+    {
+        "number": "037",
+        "name": "Vulpix",
+        "success": false
+    },
+    {
+        "number": "038",
+        "name": "Ninetales",
+        "success": false
+    },
+    {
+        "number": "039",
+        "name": "Jigglypuff",
+        "success": false
+    },
+    {
+        "number": "040",
+        "name": "Wigglytuff",
+        "success": false
+    },
+    {
+        "number": "041",
+        "name": "Zoobat",
+        "success": false
+    },
+    {
+        "number": "042",
+        "name": "Golbat",
+        "success": false
+    },
+    {
+        "number": "043",
+        "name": "Oddish",
+        "success": false
+    },
+    {
+        "number": "044",
+        "name": "Gloom",
+        "success": false
+    },
+    {
+        "number": "045",
+        "name": "Vileplume",
+        "success": false
+    },
+    {
+        "number": "046",
+        "name": "Paras",
+        "success": false
+    },
+    {
+        "number": "047",
+        "name": "Parasect",
+        "success": false
+    },
+    {
+        "number": "048",
+        "name": "Venonat",
+        "success": false
+    },
+    {
+        "number": "049",
+        "name": "Venomoth",
+        "success": false
+    },
+    {
+        "number": "050",
+        "name": "Diglett",
+        "success": false
+    },
+    {
+        "number": "051",
+        "name": "Dugtrio",
+        "success": false
+    },
+    {
+        "number": "052",
+        "name": "Meowth",
+        "success": false
+    },
+    {
+        "number": "053",
+        "name": "Persian",
+        "success": false
+    },
+    {
+        "number": "054",
+        "name": "Psyduck",
+        "success": false
+    },
+    {
+        "number": "055",
+        "name": "Golduck",
+        "success": false
+    },
+    {
+        "number": "056",
+        "name": "Mankey",
+        "success": false
+    },
+    {
+        "number": "057",
+        "name": "Primeape",
+        "success": false
+    },
+    {
+        "number": "058",
+        "name": "Growlith",
+        "success": false
+    },
+    {
+        "number": "059",
+        "name": "Arcanine",
+        "success": false
+    },
+    {
+        "number": "060",
+        "name": "Polywag",
+        "success": false
+    },
+    {
+        "number": "061",
+        "name": "Polywhirl",
+        "success": false
+    },
+    {
+        "number": "062",
+        "name": "Polywrath",
+        "success": false
+    },
+    {
+        "number": "063",
+        "name": "Abra",
+        "success": false
+    },
+    {
+        "number": "064",
+        "name": "Kadabra",
+        "success": false
+    },
+    {
+        "number": "065",
+        "name": "Alakazam",
+        "success": false
+    },
+    {
+        "number": "066",
+        "name": "Machop",
+        "success": false
+    },
+    {
+        "number": "067",
+        "name": "Machoke",
+        "success": false
+    },
+    {
+        "number": "068",
+        "name": "Machamp",
+        "success": false
+    },
+    {
+        "number": "069",
+        "name": "Bellsprout",
+        "success": false
+    },
+    {
+        "number": "070",
+        "name": "Weepinbell",
+        "success": false
+    },
+    {
+        "number": "071",
+       "name": "Victreebel",
+        "success": false
+    },
+    {
+        "number": "072",
+        "name": "Tentacool",
+        
+        "success": false
+    },
+    {
+        "number": "073",
+        "name": "Tentacrule",
+        "success": false
+    },
+    {
+        "number": "074",
+        "name": "Geodude",
+        "success": false
+    },
+    {
+        "number": "075",
+        "name": "Gravler",
+        "success": false
+    },
+    {
+        "number": "076",
+        "name": "Golem",
+        "success": false
+    },
+    {
+        "number": "077",
+        "name": "Ponyta",
+        "success": false
+    },
+    {
+        "number": "078",
+        "name": "Rapidash",
+        "success": false
+    },
+    {
+        "number": "079",
+        "name": "Slowpoke",
+        "success": false
+    },
+    {
+        "number": "080",
+        "name": "Slowbro",
+        "success": false
+    },
+    {
+        "number": "081",
+        "name": "Magnemite",
+        "success": false
+    },
+    {
+        "number": "082",
+        "name": "Magneton",
+        "success": false
+    },
+    {
+        "number": "083",
+        "name": "Farfetchd",
+        "success": false
+    },
+    {
+        "number": "084",
+        "name": "Doduo",
+        "success": false
+    },
+    {
+        "number": "085",
+        "name": "Dotrio",
+        "success": false
+    },
+    {
+        "number": "086",
+        "name": "Seel",
+        "success": false
+    },
+    {
+        "number": "087",
+        "name": "Dewgong",
+        "success": false
+    },
+    {
+        "number": "088",
+        "name": "Grimer",
+        "success": false
+    },
+    {
+        "number": "089",
+        "name": "Muck",
+        "success": false
+    },
+    {
+        "number": "090",
+        "name": "Shellder",
+        "success": false
+    },
+    {
+        "number": "091",
+        "name": "Cloyster",
+        "success": false
+    },
+    {
+        "number": "092",
+        "name": "Gastly",
+        "success": false
+    },
+    {
+        "number": "093",
+        "name": "Haunter",
+        "success": false
+    },
+    {
+        "number": "094",
+        "name": "Gengar",
+        "success": false
+    },
+    {
+        "number": "095",
+        "name": "Onyx",
+        "success": false
+    },
+    {
+        "number": "096",
+        "name": "Drowzee",
+        "success": false
+    },
+    {
+        "number": "097",
+        "name": "Hypno",
+        "success": false
+    },
+    {
+        "number": "098",
+        "name": "Krabby",
+        "success": false
+    },
+    {
+        "number": "099",
+        "name": "Kingler",
+        "success": false
+    },
+    {
+        "number": "100",
+        "name": "Voltorb",
+        "success": false
+    },
+    {
+        "number": "101",
+        "name": "Electrode",
+        "success": false
+    },
+    {
+        "number": "102",
+        "name": "Exeggcute",
+        "success": false
+    },
+    {
+        "number": "103",
+        "name": "Exeggcutor",
+        "success": false
+    },
+    {
+        "number": "104",
+        "name": "Cubone",
+        "success": false
+    },
+    {
+        "number": "105",
+        "name": "Marowack",
+        "success": false
+    },
+    {
+        "number": "106",
+        "name": "Hitmonlee",
+        "success": false
+    },
+    {
+        "number": "107",
+        "name": "Hitmonchan",
+        "success": false
+    },{
+        "number": "108",
+        "name": "Lickitung",
+        "success": false
+    },{
+        "number": "109",
+        "name": "Koffing",
+        "success": false
+    },{
+        "number": "110",
+        "name": "Weezing",
+        "success": false
+    },{
+        "number": "111",
+        "name": "Rhyhorn",
+        "success": false
+    },{
+        "number": "112",
+        "name": "Rhydon",
+        "success": false
+    },{
+        "number": "113",
+        "name": "chansey",
+        "success": false
+    },{
+        "number": "114",
+        "name": "Tangela",
+        "success": false
+    },{
+        "number": "115",
+        "name": "Kangaskhan",
+        "success": false
+    },{
+        "number": "116",
+        "name": "Horsea",
+        "success": false
+    },{
+        "number": "117",
+        "name": "seadra",
+        "success": false
+    },{
+        "number": "118",
+        "name": "Goldeen",
+        "success": false
+    },{
+        "number": "119",
+        "name": "Seaking",
+        "success": false
+    },{
+        "number": "120",
+        "name": "Staryu",
+        "success": false
+    },{
+        "number": "121",
+        "name": "Starmie",
+        "success": false
+    },{
+        "number": "122",
+        "name": "MrMime",
+        "success": false
+    },{
+        "number": "123",
+        "name": "Scyther",
+        "success": false
+    },{
+        "number": "124",
+        "name": "Jynx",
+        "success": false
+    },{
+        "number": "125",
+        "name": "Electabuzz",
+        "success": false
+    },{
+        "number": "126",
+        "name": "Magmar",
+        "success": false
+    },{
+        "number": "127",
+        "name": "Pinsir",
+        "success": false
+    },{
+        "number": "128",
+        "name": "Tauros",
+        "success": false
+    },{
+        "number": "129",
+        "name": "Magikarp",
+        "success": false
+    },{
+        "number": "130",
+        "name": "Gyaradose",
+        "success": false
+    },{
+        "number": "131",
+        "name": "Lapras",
+        "success": false
+    },{
+        "number": "132",
+        "name": "Ditto",
+        "success": false
+    },{
+        "number": "133",
+        "name": "Eevee",
+        "success": false
+    },{
+        "number": "134",
+        "name": "Vaporeon",
+        "success": false
+    },{
+        "number": "135",
+        "name": "Jolteon",
+        "success": false
+    },{
+        "number": "136",
+        "name": "Flareon",
+        "success": false
+    },{
+        "number": "137",
+        "name": "Porygon",
+        "success": false
+    },{
+        "number": "138",
+        "name": "Omanyte",
+        "success": false
+    },{
+        "number": "139",
+        "name": "Omastar",
+        "success": false
+    },{
+        "number": "140",
+        "name": "Kabuto",
+        "success": false
+    },{
+        "number": "141",
+        "name": "Kabutops",
+        "success": false
+    },{
+        "number": "142",
+        "name": "Aerodactyle",
+        "success": false
+    },{
+        "number": "143",
+        "name": "Snorlax",
+        "success": false
+    },{
+        "number": "144",
+        "name": "Articuno",
+        "success": false
+    },{
+        "number": "145",
+        "name": "Zapdos",
+        "success": false
+    },{
+        "number": "146",
+        "name": "Moltres",
+        "success": false
+    },{
+        "number": "147",
+        "name": "Dratini",
+        "success": false
+    },{
+        "number": "148",
+        "name": "Dragonair",
+        "success": false
+    },{
+        "number": "149",
+        "name": "Dragonite",
+        "success": false
+    },{
+        "number": "150",
+        "name": "Mewtwo",
+        "success": false
+    },{
+        "number": "151",
+        "name": "Mew",
+        "success": false
     }
 ]

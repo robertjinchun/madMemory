@@ -182,10 +182,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 body {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 100vw;
-      grid-template-columns: 100vw;
-  -ms-grid-rows: 200px 80vh 50px;
-      grid-template-rows: 200px 80vh 50px;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 100px auto 50px;
+      grid-template-rows: 100px auto 50px;
       grid-template-areas: "header" "main" "footer";
 }
 
@@ -208,5 +208,48 @@ footer {
   -ms-grid-column: 1;
   grid-area: footer;
   background-color: green;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+li {
+  border: 2px solid purple;
+  height: 20px;
+  width: 100px;
+  margin: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0;
 }
 /*# sourceMappingURL=style.css.map */
