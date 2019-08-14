@@ -187,6 +187,7 @@ html {
 main {
   background-color: #faf3dd;
   text-align: center;
+  max-width: 1600px;
 }
 
 h1 {
@@ -194,9 +195,17 @@ h1 {
   color: #ca054d;
 }
 
+h3 {
+  font-family: 'Dosis', sans-serif;
+  color: #ca054d;
+}
+
 li {
   font-family: 'Cutive Mono', monospace;
-  color: #23c9ff;
+}
+
+input {
+  font-family: 'Cutive Mono', monospace;
 }
 
 body {
@@ -207,6 +216,12 @@ body {
   -ms-grid-rows: auto;
       grid-template-rows: auto;
       grid-template-areas: "main";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header {
@@ -240,12 +255,14 @@ form {
   text-align: center;
 }
 
-.hidden {
-  display: none;
+.score {
+  display: inline-block;
+  margin-left: 30px;
 }
 
-.visible {
-  display: block;
+.timeBox {
+  display: inline-block;
+  margin-right: 30px;
 }
 
 li {

@@ -6,23 +6,33 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
     <main>
-        <h1>Pokemon Mad Memory</h1>
+        <h1>Pokemon 151</h1>
         <form id="itemInput">
-            <div id ="">
+            <div class="timeBox">
+                <h3>
+                    <span>Timer: </span><span id="timer"></span>
+                </h3>
 
             </div>
-            <input type="text" id="inputText" autocomplete="off">
-            <button type="submit" id="itemChecker">Submit</button>
-            <div>
-                <span id="currentScore"></span>
-                <span> / </span>
-                <span id="totalScore"></span>
+            <div class="score">
+                <H3>
+                    <span>Score: </span>
+                    <span id="currentScore"></span>
+                    <span> / </span>
+                    <span id="totalScore"></span>
+                </H3>
             </div>
+            <div>
+                <input type="text" id="inputText" autocomplete="off">
+                <button type="submit" id="itemChecker">Submit</button>
+            </div>
+
+            
         </form>
         <section id="itemListContainer">
             <ul id="wholeList">
@@ -31,7 +41,7 @@
         </section>
     </main>
     <footer>
-        
+
     </footer>
     <script src="js/index.js"></script>
 

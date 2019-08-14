@@ -4,6 +4,7 @@ const listItem = [];
 const itemAvailable = [];
 let points = 0;
 let totalPoints = 0;
+let timer = 0;
 
 const get = (url) => {
     return new Promise((resolve, reject) => {
@@ -27,6 +28,17 @@ const get = (url) => {
     })
 }
 
+function countdown() {
+    setTimeout('incriment()', 1000);
+}
+
+function incriment() {
+    timer ++;
+    document.getElementById("timer").innerHTML = timer;
+    if (points < totalPoints){
+        setTimeout('incriment()', 1000);
+    }
+}
 
 const produceElements = (pokemon) => {
     const ulList = document.getElementById('wholeList')
@@ -36,6 +48,9 @@ const produceElements = (pokemon) => {
         ulList.appendChild(listItem[i])
         itemAvailable[i] = false
     }
+    totalPoints = pokemon.length;
+    document.getElementById("totalScore").innerHTML = totalPoints;
+    document.getElementById("currentScore").innerHTML = points;
 }
 
 const comparison = (userInput) => {
@@ -45,6 +60,7 @@ const comparison = (userInput) => {
         if (userInput.toLowerCase() === immutableTest[i].name.toLowerCase() && itemAvailable[i] === false) {
             points++
             // document.getElementById("currentScore").write(points)
+            document.getElementById("currentScore").innerHTML = points;
             listItem[i].textContent = immutableTest[i].name
             immutableData[i] = immutableTest[i].name
             itemAvailable[i] = true
@@ -60,6 +76,8 @@ const comparison = (userInput) => {
 // }
 
 get('./pokemonData/pokemonData.json');
+
+countdown()
 
 document.getElementById("itemChecker").addEventListener("click", function (event) {
     event.preventDefault()
