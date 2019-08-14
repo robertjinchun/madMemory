@@ -186,7 +186,7 @@
     },
     {
         "number": "038",
-        "name": "Ninetales",
+        "name": "Ninetails",
         "success": false
     },
     {
@@ -201,7 +201,7 @@
     },
     {
         "number": "041",
-        "name": "Zoobat",
+        "name": "Zubat",
         "success": false
     },
     {
@@ -296,17 +296,17 @@
     },
     {
         "number": "060",
-        "name": "Polywag",
+        "name": "Poliwag",
         "success": false
     },
     {
         "number": "061",
-        "name": "Polywhirl",
+        "name": "Poliwhirl",
         "success": false
     },
     {
         "number": "062",
-        "name": "Polywrath",
+        "name": "Poliwrath",
         "success": false
     },
     {
@@ -372,7 +372,7 @@
     },
     {
         "number": "075",
-        "name": "Gravler",
+        "name": "Graveler",
         "success": false
     },
     {
@@ -442,7 +442,7 @@
     },
     {
         "number": "089",
-        "name": "Muck",
+        "name": "Muk",
         "success": false
     },
     {
@@ -522,7 +522,7 @@
     },
     {
         "number": "105",
-        "name": "Marowack",
+        "name": "Marowak",
         "success": false
     },
     {
@@ -556,7 +556,7 @@
         "success": false
     },{
         "number": "113",
-        "name": "chansey",
+        "name": "Chansey",
         "success": false
     },{
         "number": "114",
@@ -624,7 +624,7 @@
         "success": false
     },{
         "number": "130",
-        "name": "Gyaradose",
+        "name": "Gyarados",
         "success": false
     },{
         "number": "131",

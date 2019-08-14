@@ -1,25 +1,48 @@
 //Colors
 
 //Fonts
+html {
+    font-size: 16px;
+    background-color: #faf3dd;
+}
+
+main {
+    background-color: #faf3dd;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    color: #ca054d;
+}
+
+li {
+    font-family: 'Cutive Mono', monospace;
+    color: #23c9ff;
+
+}
+
+
 
 body {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px auto;
+    grid-template-rows: auto;
     grid-template-areas:
-        "header"
+        // "header"
         "main"
-        "footer";
+        // "footer";
 }
 
 header {
     grid-area: header;
-    background-color: blue;
+    // background-color: blue;
+    text-align: center;
 }
 
 main {
     grid-area: main;
-    background-color: red;
+    background-color: #faf3dd;
 }
 
 footer {
@@ -52,17 +75,17 @@ form {
 li {
     border: 2px solid purple;
     height: 20px;
-    width: 100px;
+    width: 120px;
     margin: 5px;
     list-style: none;
     text-align: center;
-    // justify-content: center;
+    color: #141414; // justify-content: center;
 }
 
 ul {
     display: flex;
     // flex-direction:column;
     flex-wrap: wrap;
-    justify-content:center;
-    padding-left:0;
+    justify-content: center;
+    padding-left: 0;
 }

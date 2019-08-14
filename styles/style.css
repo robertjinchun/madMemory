@@ -179,33 +179,49 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
+html {
+  font-size: 16px;
+  background-color: #faf3dd;
+}
+
+main {
+  background-color: #faf3dd;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #ca054d;
+}
+
+li {
+  font-family: 'Cutive Mono', monospace;
+  color: #23c9ff;
+}
+
 body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 100px auto;
-      grid-template-rows: 100px auto;
-      grid-template-areas: "header" "main" "footer";
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "main";
 }
 
 header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: header;
-  background-color: blue;
+  text-align: center;
 }
 
 main {
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: main;
-  background-color: red;
+  background-color: #faf3dd;
 }
 
 footer {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: footer;
   background-color: green;
 }
@@ -235,10 +251,11 @@ form {
 li {
   border: 2px solid purple;
   height: 20px;
-  width: 100px;
+  width: 120px;
   margin: 5px;
   list-style: none;
   text-align: center;
+  color: #141414;
 }
 
 ul {
