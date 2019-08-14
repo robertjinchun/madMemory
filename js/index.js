@@ -52,12 +52,6 @@ const comparison = (userInput) => {
             break
         }
     }
-    // for (let i = 0; i < immutableTest.length; i++) {
-    //     if (itemAvailable[i] === true) {
-    //         ulList.removeChild(listItem[i])
-    //     }
-    // }
-
 
 }
 
@@ -65,10 +59,6 @@ get('../pokemonData/pokemonData.json');
 
 document.getElementById("itemChecker").addEventListener("click", function (event) {
     event.preventDefault()
-    // erase what is already on the list
-
-    //
-    console.log("1212")
     comparison(document.getElementById("inputText").value)
     document.getElementById("inputText").value = ''
 });
