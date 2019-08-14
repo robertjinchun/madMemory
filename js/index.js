@@ -26,6 +26,7 @@ const get = (url) => {
     })
 }
 
+
 const produceElements = (pokemon) => {
     const ulList = document.getElementById('wholeList')
     for (let i = 0; i < pokemon.length; i++) {
@@ -43,11 +44,9 @@ const comparison = (userInput) => {
     for (let i = 0; i < immutableTest.length; i++) {
         if (userInput.toLowerCase() === immutableTest[i].name.toLowerCase() && itemAvailable[i] === false) {
             points++
-
             listItem[i].textContent = immutableTest[i].name
             immutableData[i] = immutableTest[i].name
             itemAvailable[i] = true
-
             console.log(points)
             break
         }
@@ -55,7 +54,7 @@ const comparison = (userInput) => {
 
 }
 
-get('../pokemonData/pokemonData.json');
+get('./pokemonData/pokemonData.json');
 
 document.getElementById("itemChecker").addEventListener("click", function (event) {
     event.preventDefault()
